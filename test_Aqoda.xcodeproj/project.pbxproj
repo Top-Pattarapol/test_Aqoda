@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FFD1BCF52320F8B100321A6D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFD1BCF42320F8B100321A6D /* main.swift */; };
+		FFD1BCFE2320F8CC00321A6D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFD1BCFB2320F8CB00321A6D /* main.swift */; };
+		FFD1BCFF2320F8CC00321A6D /* Hotel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFD1BCFC2320F8CC00321A6D /* Hotel.swift */; };
+		FFD1BD002320F8CC00321A6D /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFD1BCFD2320F8CC00321A6D /* Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +26,9 @@
 
 /* Begin PBXFileReference section */
 		FFD1BCF12320F8B100321A6D /* test_Aqoda */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = test_Aqoda; sourceTree = BUILT_PRODUCTS_DIR; };
-		FFD1BCF42320F8B100321A6D /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		FFD1BCFB2320F8CB00321A6D /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		FFD1BCFC2320F8CC00321A6D /* Hotel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hotel.swift; sourceTree = "<group>"; };
+		FFD1BCFD2320F8CC00321A6D /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +61,9 @@
 		FFD1BCF32320F8B100321A6D /* test_Aqoda */ = {
 			isa = PBXGroup;
 			children = (
-				FFD1BCF42320F8B100321A6D /* main.swift */,
+				FFD1BCFB2320F8CB00321A6D /* main.swift */,
+				FFD1BCFD2320F8CC00321A6D /* Model.swift */,
+				FFD1BCFC2320F8CC00321A6D /* Hotel.swift */,
 			);
 			path = test_Aqoda;
 			sourceTree = "<group>";
@@ -119,7 +125,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FFD1BCF52320F8B100321A6D /* main.swift in Sources */,
+				FFD1BD002320F8CC00321A6D /* Model.swift in Sources */,
+				FFD1BCFF2320F8CC00321A6D /* Hotel.swift in Sources */,
+				FFD1BCFE2320F8CC00321A6D /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
